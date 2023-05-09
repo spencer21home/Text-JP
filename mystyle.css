@@ -1,0 +1,355 @@
+@charset="utf-8";
+/* CSS Document */
+body{
+    background-image: url("../IMAGES/Background.jpeg");
+    background-size: cover;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3{
+    margin: 0;
+    text-align: left;
+}
+
+h2{
+   color: black;
+   font-size: 20px;
+   padding: 30px 30px;
+}
+
+h3 {
+    font-size: 20px;
+    color: black;
+}
+
+h5 {
+    float: left;
+    margin-left: 630px;
+    margin-top: 5px
+}
+
+blog {
+    float: left;
+    background-color: orange;
+    column-rule: ;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    font-size: 35;
+}
+
+article {
+    background-color: aqua;
+}
+
+article h3 {
+    float: left;
+    width: 95%;
+    background: aqua;
+    padding: 20px;
+    margin: auto;
+    margin-top: -30px;
+}
+
+article h4 {
+    float: left;
+    width: 95%;
+    height: 10px;
+    background:aqua;
+    padding: 20px;
+    margin-top: 0px;
+    font-size: 16px;
+    color: darkgreen;
+}
+
+table {
+    background: #ccc;
+    width: 100%;
+    float: right;
+}
+
+ #container {
+     background-color: white;
+     width: 800px;
+     height: 900px;
+     margin-left: auto;
+     margin-right: auto;
+}
+     
+.header {
+   overflow: hidden;
+   color: orangered;
+   text-align: left;
+   padding: 0px 10px;
+}
+
+.content {
+    padding: 0px;
+}
+
+.topnav {
+    width: 100%;
+    background-color: aqua;
+    line-height: 15px;
+    font-size: x-large;
+    float: left;
+}
+
+.topnav a {
+    display: block;
+    color: darkblue;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.topnav ul {
+    float: left;
+}
+
+.topnav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}   
+
+#nav ul li a {
+    display: block;
+    font-family: arial;
+    color: #F22124;
+    font-size: 28px;
+    padding: 24px 14px;
+    text-decoration: none;
+}
+
+.topnav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+    z-index: 1000;
+}      
+ 
+.topnav ul li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: aqua;
+    padding: 10px;
+    padding-right: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+    
+.topnav ul li ul li {
+    padding: 0px 14px;
+}
+    
+.topnav ul li ul li a {
+    border-radius: 4px;
+}    
+
+.topnav ul li ul li a:hover {
+    background-color:yellow;
+}
+
+.slider_image{
+    width: 100%;
+    flex: 70%;
+    flex-wrap: wrap;
+    display: flex;
+    color: orangered;
+    background-color: orange;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: left;
+    clear: both;
+}
+
+.flex-container > div; {
+    color: white;
+    margin: 10px;
+    text-align: left;
+    line-height: 25px;
+    font-size: 30px;
+}
+
+.flex-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    clear:both;
+}
+
+.flex-container1 > div {
+    width: 100%
+    color: white;
+    margin: 20px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 30px;
+}
+
+.flex-container2 {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    clear:both;
+}
+
+.flex-container2 > div {
+    background-color: aqua;
+    color: darkblue;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.footer {
+    text-align: center;
+    Color: black;
+    background-color: white;
+}
+
+.flex-container3 {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    clear: both;
+}
+
+.flex-container3 >div > li {
+    color: Black;
+    padding: 10px;
+}
+
+.flex-container3 >div > >div > li {
+    color: black;
+}
+
+.flex-container3 >div {
+    background-color: white;
+    color: black;
+    width: 100%;
+    margin: 10px;
+    text-align: left;
+    line-height: 35px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+    
+.flex-container3 >div > h1 {
+    background-color: white;
+    color: green;
+    width: 85%;
+    margin: 0px;
+    text-align: left;
+    line-height: 35px;
+    font-size: 20px;
+    padding-left: 20px;
+
+}  
+
+.flex-container3 > div > h2 {
+    background-color: white;
+    color: red;
+    width: 100%;
+    margin: 0px;
+    text-align: left;
+    line-height: 0px;
+    font-size: 20px;
+    padding-left: 10px;
+}  
+
+.flex-container3 > div > div> h3 {
+    background-color: white;
+    color: purple;
+    width: 85%;
+    margin: 0px;
+    text-align: left;
+    line-height: 35px;
+    font-size: 20px;
+    padding-left: 0px;
+    padding-top: 24px
+}
+
+.flex-container3 > div > div> h4{
+    background-color: white;
+    color: dodgerblue;
+    width: 100%;
+    margin: 0px;
+    text-align: left;
+    line-height: 35px;
+    font-size: 20px;
+    padding-left: 0px;
+}  
+
+.flex-container3 > div > div> h5{
+    background-color: white;
+    color: orange;
+    width: 100%;
+    margin: 0px;
+    text-align: left;
+    line-height: 35px;
+    font-size: 20px;
+    padding-left: 0px;
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
